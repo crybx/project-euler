@@ -3,7 +3,8 @@
 
 import math
 
-def isPrime(n):
+
+def is_prime(n):
     n_sqr = math.ceil(math.sqrt(n))
     primes = list()
 
@@ -21,10 +22,10 @@ def isPrime(n):
     return True
 
 
-n = input('What integer do you want to check is prime?: ')
-n = int(n)
+num = input('What integer do you want to check is prime?: ')
+num = int(num)
 
-if isPrime(n):
-    print(str(n) + " is prime.")
+if is_prime(num):
+    print(str(num) + " is prime.")
 else:
-    print(str(n) + " is NOT prime.")
+    print(str(num) + " is NOT prime.")
