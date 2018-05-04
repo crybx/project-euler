@@ -15,6 +15,6 @@ while term2 <= 4000000:
     term1 = term2
     term2 = temp
     if term2 % 2 == 0:
-        result += term2
+        answer += term2
 
 print("Problem 2: " + str(answer))
