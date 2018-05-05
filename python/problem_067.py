@@ -1,4 +1,5 @@
-# Problem 67 - Larger version of problem 18.
+# Problem 67 - Maximum path sum II
+# (Larger version of problem 18.)
 #
 # Find the maximum total from top to bottom in
 # triangle.txt (problem_067_original_triangle.txt in my repo),
