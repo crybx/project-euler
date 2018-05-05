@@ -14,6 +14,7 @@
 # value family.
 
 import math
+import time
 
 
 def is_prime(n):
@@ -59,6 +60,7 @@ def replace_digit_in_n(digit, replace, n):
     return int(shiny_new_number)
 
 
+start_time = time.time()
 primes = list()
 result = 0
 i = 1
@@ -93,3 +95,6 @@ while result == 0:
                         result = i
 
 print(result)
+print("{} ms".format(round(1000 * (time.time() - start_time))))
+
+# 7515 ms - Brute force, first working idea, no attempt to optimize.
